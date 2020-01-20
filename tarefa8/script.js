@@ -19,7 +19,7 @@ if(posicion == 1) {
 		if (posicion == 3) {
 			document.write("Medalla de bronce")
 		}else{
-			document.write("Medalla de consolación ");
+			document.write("Medalla de carton ");
 		}
 	}
 }
@@ -27,7 +27,7 @@ if(posicion == 1) {
 
 }
 
-var puesto = prompt("De que posición quedaste");
+var puesto = prompt("En que posicion quedaste");
 numeropuesto = parseFloat(puesto);
  medalla(numeropuesto);
 
